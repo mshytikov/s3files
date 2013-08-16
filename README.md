@@ -9,18 +9,16 @@ Main requirements:
 3. Guaranty that all files will be uploaded.
 4. Concurrent uploading. 
 
-## Installation
 
-Download jar file from http://s3files.droxbob.com
-
-## Usage
+### Usage
 
 To upload on s3 files from some directory:
 
-1. Put config file `config.clj` near .jar file
-2. $ java -jar s3files-0.1.0-standalone.jar 
+1. Download jar file from http://s3files.droxbob.com
+2. Put config file `config.clj` near .jar file
+3. `$ java -jar s3files-0.1.0-standalone.jar`
 
-## Config in file config.clj
+### Config in file config.clj
 
 ```
  {
@@ -35,15 +33,15 @@ To upload on s3 files from some directory:
 ```
 
 
-## Thanks
+### Thanks
 
 [CloudMade](http://cloudmade.com)
 
-## Notes
+### Notes
 
 I'm a newbie in Clojure
 
-## License
+### License
 
 Copyright © 2013 Max Shytikov
 
